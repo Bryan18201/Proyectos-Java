@@ -38,6 +38,10 @@ public class Login extends javax.swing.JFrame {
         loginBtn = new com.login.PanelRound();
         loginBtnTxt = new javax.swing.JLabel();
         passwordIssue = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocationByPlatform(true);
@@ -69,7 +73,7 @@ public class Login extends javax.swing.JFrame {
 
         tittle.setFont(new java.awt.Font("Roboto Medium", 1, 18)); // NOI18N
         tittle.setForeground(new java.awt.Color(0, 0, 0));
-        tittle.setText("INICIAR SESION ");
+        tittle.setText("INICIAR SESIÓN ");
         jPanel1.add(tittle, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, -1, -1));
 
         userlabel.setFont(new java.awt.Font("Roboto Light", 1, 14)); // NOI18N
@@ -221,7 +225,7 @@ public class Login extends javax.swing.JFrame {
         jPanel1.add(loginBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 290, 120, 40));
 
         passwordIssue.setBackground(new java.awt.Color(0, 0, 0));
-        passwordIssue.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
+        passwordIssue.setFont(new java.awt.Font("Roboto", 0, 16)); // NOI18N
         passwordIssue.setForeground(new java.awt.Color(0, 0, 0));
         passwordIssue.setText("Olvidaste tu contraseña?");
         passwordIssue.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -236,7 +240,25 @@ public class Login extends javax.swing.JFrame {
                 passwordIssueMousePressed(evt);
             }
         });
-        jPanel1.add(passwordIssue, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 280, -1, -1));
+        jPanel1.add(passwordIssue, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 280, -1, -1));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/images/github.png"))); // NOI18N
+        jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 410, -1, -1));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/images/google.png"))); // NOI18N
+        jLabel4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 410, -1, -1));
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/images/facebook .png"))); // NOI18N
+        jLabel5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 410, -1, -1));
+
+        jLabel6.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel6.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel6.setText("O inicia sesión con:");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 360, 170, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -374,6 +396,10 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JPanel header;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JSeparator jSeparator1;
